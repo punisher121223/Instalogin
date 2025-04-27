@@ -29,33 +29,34 @@ body {
 }
 
 .logo {
-    width: 60px; /* اندازه لوگو کاهش یافته */
-    margin: 0 auto 20px;
+    width: 50px; /* لوگو کوچک‌تر */
+    margin: 0 auto 25px;
     display: block;
 }
 
 input {
     width: 100%;
-    padding: 12px; /* فیلدها بزرگ‌تر و استاندارد */
-    margin: 8px 0;
+    padding: 14px; /* فیلدها بزرگ‌تر */
+    margin: 10px 0;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
     background: #fafafa;
-    font-size: 16px; /* فونت بزرگ‌تر */
+    font-size: 16px; /* فونت بزرگ‌تر و استاندارد */
     box-sizing: border-box;
+    text-align: right; /* متن راست‌چین برای فارسی */
 }
 
 button {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     background: #0095f6;
     border: none;
-    border-radius: 8px; /* گوشه‌های نرم‌تر */
+    border-radius: 8px;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -94,10 +95,10 @@ button:hover {
         padding: 20px;
     }
     .logo {
-        width: 50px;
+        width: 45px;
     }
     input, button {
-        padding: 10px;
-        font-size: 14px;
+        padding: 12px;
+        font-size: 15px;
     }
 }
